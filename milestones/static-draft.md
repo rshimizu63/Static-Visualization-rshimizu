@@ -43,6 +43,7 @@ This is a bubble chart, with the x-axis and y-axis the same as in Image 3. What 
 
 9.Comparison among the number of hospital beds, health expenditure, and healthy life expectency. 
 ![](../image/image9.png)
+![](../image/image10.png)
 This graph also describe the relationship among hospital beds, health expenditure and healthy life expectency. X-axis represents the rank among prefectures about each factors. Since the number of hospital beds and health expenditure are correlated, relatively few lines cross each other. In contrast, healthcare expenditure and healthy life expectency are visibly tangled, indicating little apparent relationship. This suggests that the concentration of healthcare resources does not necessarily lead to improved health outcomes, and provides more compelling evidence for the need to optimize the allocation of medical resources.
 
 
