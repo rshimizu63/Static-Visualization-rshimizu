@@ -7,7 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <title>Inefficiency in the distribution of medical resources in Japan</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-  <link rel="stylesheet" href="https://rshimizu63.github.io/Static-Visualization-rshimizu/src/theme.css">
+  <link rel="stylesheet" href="src/theme.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -25,19 +25,49 @@
 				The number of hospital beds per capita differs by up to three times among prefectures
 			</h2>
   
-  <div class="graph-full" id="bedpref"></div>
+  <div class="graph-full">
+     <div id="bedpref"></div>
+  </div>
     <script type="text/javascript">
     vegaEmbed("#bedpref", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_pref.json");
     </script>
-
-  <div class="graph-full" id="bed-map"></div>
-    <script type="text/javascript">
-    vegaEmbed("#bed-map", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/image7.json");
-    </script>
-  
-  <p class = "body_text">
-    This graph shows the number of hospital beds per 100,000 people in each prefecture in Japan. The first and most important point is that the distribution of healthcare resources (hospital beds) is unequal, even after adjusting for population. The prefecture with the most resources(Kochi) has almost three times as many hospital beds as the prefecture with the fewest(Kanagawa).
+  <p class = "reference">
+    Source: Survey of Medical Institutions, Ministry of health, Labour and Welfare, Japan
   </p>
+
+  <p class = "body_text">
+    Figure 1 shows the number of hospital beds per 100,000 people in each prefecture in Japan. It is obvious that the distribution of healthcare resources (hospital beds) is unequal, even after adjusting for population. The prefecture with the most resources(Kochi) has almost three times as many hospital beds as the prefecture with the fewest(Kanagawa).
+  </p>
+
+  <div class="columns" style = "margin-top: 30px;">
+    <div class="column is-two-thirds" id="bed-map"></div>
+      <script type="text/javascript">
+      vegaEmbed("#bed-map", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed-map.json");
+      </script>
+    
+    <div class="column is-one-third">
+      <div class="table-container">
+        <table class="table is-striped is-hoverable table-format">
+        <caption class="caption-title">For reference: Prefectures in Japan with the largest populations</caption>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Prefecture</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Tokyo</td></tr>
+          <tr><td>2</td><td>Kanagawa</td></tr>
+          <tr><td>3</td><td>Osaka</td></tr>
+          <tr><td>4</td><td>Aichi</td></tr>
+          <tr><td>5</td><td>Saitama</td></tr>
+        </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  
   </section>
 </body>
 </html>

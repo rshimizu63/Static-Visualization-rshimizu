@@ -11,7 +11,7 @@ All data I'm using is real data, and there is no issue with using it so far. I d
 ## Describe each of the provided images with 2-3 sentences to give the context and how it relates to your goal.
 1.Hospital beds per 100,000 people
 ![](../image/image1.png)
-This image shows the number of hospital beds per 100,000 people in each prefecture in Japan. The first and most important point is that the distribution of healthcare resources (hospital beds) is unequal, even after adjusting for population. The prefecture with the most resources has almost three times as many hospital beds as the prefecture with the fewest.
+This image shows the number of hospital beds per 100,000 people in each prefecture in Japan. It is obvious that the distribution of healthcare resources (hospital beds) is unequal, even after adjusting for population. The prefecture with the most resources has almost three times as many hospital beds as the prefecture with the fewest.
 
 2.Hospital beds per 100,000 people by bed type
 ![](../image/image2.png)
