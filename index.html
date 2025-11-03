@@ -32,7 +32,7 @@
     vegaEmbed("#bedpref", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_pref.json");
     </script>
   <p class = "reference">
-    Source: Survey of Medical Institutions, Ministry of health, Labour and Welfare, Japan
+    Source: "Survey of Medical Institutions", Ministry of health, Labour and Welfare, Japan
   </p>
 
   <p class = "body_text">
@@ -67,7 +67,7 @@
     </div>
   </div>
   <p class = "reference">
-    Source: Survey of Medical Institutions, Ministry of health, Labour and Welfare, Japan
+    Source: "Survey of Medical Institutions", Ministry of health, Labour and Welfare, Japan
   </p>
   
   <p class = "body_text">
@@ -78,6 +78,49 @@
 		The high number of hospital beds is directly associated with high medical expenditure
 	</h2>
 
+  <div class="columns" style = "margin-top: 30px;">
+    <div class="column is-half" id="bed-exp"></div>
+      <script type="text/javascript">
+      vegaEmbed("#bed-exp", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_exp.json");
+      </script>
+    
+    <div class="column is-half" id="bed-hosp"></div>
+      <script type="text/javascript">
+      vegaEmbed("#bed-hosp", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_hosp.json");
+      </script>
+  </div>
+  <p class = "reference">
+    Source: "Survey of Medical Institutions", "National Medical Expenditure", Ministry of health, Labour and Welfare, Japan
+  </p>
+
+  <p class = "body_text">
+    Figure 3 shows the number of hospital beds per capita and medical expenditure in each prefecture. Interestingly, the two variables are clearly highly correlated. This suggests that people in prefectures with many hospital beds bear a heavier burden of medical costs, and it is assumed that an over-allocation of hospital beds may cause some inefficiency.
+  </p>
+  <p class = "body_text">
+    A similar relationship can be observed between the number of beds and the hospitalization fee per capita(Figure 4). Since the correlation appears to be stronger, it can be assumed that higher medical expenditures are associated with more frequent or longer hospital stays, which may be influenced by the availability of hospital beds.
+  </p>
+
+  <div class="columns" style = "margin-top: 30px;">
+    <div class="column is-half" id="bed-stay"></div>
+      <script type="text/javascript">
+      vegaEmbed("#bed-stay", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_stay.json");
+      </script>
+    
+    <div class="column is-half" id="bed-admission"></div>
+      <script type="text/javascript">
+      vegaEmbed("#bed-admission", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_admission.json");
+      </script>
+  </div>
+  <p class = "reference">
+    Source: "Survey of Medical Institutions", "Hospital Report", Ministry of health, Labour and Welfare, Japan
+  </p>
+
+  <p class = "body_text">
+    Breaking down the provision of medical care into the average length of hospital stay and the number of new hospital admissions in Figures 5 and 6. The more hospital beds there are, the longer people tend to stay in hospitals, and the more people are admitted.
+  
+  <h2 class="chapter">
+		 An abundance hospital beds and high medical expenditure does not necessarily contribute to improve people's health 
+	</h2>
 
   </section>
 </body>
