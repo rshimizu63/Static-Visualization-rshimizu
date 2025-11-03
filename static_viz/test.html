@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <title>Inefficiency in the distribution of medical resources in Japan</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="../src/theme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="container is-max-widescreen">
+    <h1 class = "main_title">Inefficiency in the distribution of medical resources in Japan</h1>
+    <p class = "body_text">In Japan, thanks to the universal health insurance system, all people can access sufficient medical services regardless of their wealth or location. However, since a large portion of medical expenditures is publicly covered, medical resources—such as doctors, hospitals, and hospital beds—are not necessarily distributed efficiently. This can lead to unnecessary expansion of medical expenditures. In this project, using prefecture-level data in Japan, I aim to demonstrate that an excessive concentration of hospital resources in certain prefectures can lead to the provision of unnecessary medical services, thereby increasing medical expenditures, while contributing relatively little to improving people’s health status.</p>
+  </section>
+  
+  <section class="container is-max-widescreen">
+  <h2 class="chapter">
+				The number of hospital beds per capita differs by up to three times among prefectures!
+			</h2>
+  
+  <div class="graph-full id="bedpref"></div>
+    <script type="text/javascript">
+    vegaEmbed("#bedpref", "graphs/image7.json");
+    </script>
+  
+  <p class = "body_text">This graph shows the number of hospital beds per 100,000 people in each prefecture in Japan. The first and most important point is that the distribution of healthcare resources (hospital beds) is unequal, even after adjusting for population. The prefecture with the most resources(Kochi) has almost three times as many hospital beds as the prefecture with the fewest(Kanagawa).</p>
+    </section>
+</body>
+</html>
