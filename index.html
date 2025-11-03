@@ -32,7 +32,7 @@
     vegaEmbed("#bedpref", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/bed_pref.json");
     </script>
   <p class = "reference">
-    Source: "Survey of Medical Institutions", Ministry of health, Labour and Welfare, Japan
+    Source: Ministry of health, Labour and Welfare, Japan(MHLW), <i>Survey of Medical Institutions</i>
   </p>
 
   <p class = "body_text">
@@ -67,7 +67,7 @@
     </div>
   </div>
   <p class = "reference">
-    Source: "Survey of Medical Institutions", Ministry of health, Labour and Welfare, Japan
+    Source: Created by author based on MHLW, <i>Survey of Medical Institutions</i>
   </p>
   
   <p class = "body_text">
@@ -90,7 +90,7 @@
       </script>
   </div>
   <p class = "reference">
-    Source: "Survey of Medical Institutions", "National Medical Expenditure", Ministry of health, Labour and Welfare, Japan
+    Source: Created by the author based on MHLW, <i>Survey of Medical Institutions</i>, <i>National Medical Expenditure</i>
   </p>
 
   <p class = "body_text">
@@ -112,7 +112,7 @@
       </script>
   </div>
   <p class = "reference">
-    Source: "Survey of Medical Institutions", "Hospital Report", Ministry of health, Labour and Welfare, Japan
+    Source: Created by the author based on MHLW, <i>Survey of Medical Institutions</i>, <i>Hospital Report</i>
   </p>
 
   <p class = "body_text">
@@ -122,6 +122,45 @@
 		 An abundance hospital beds and high medical expenditure does not necessarily contribute to improve people's health 
 	</h2>
 
+  <p class = "body_text">
+   We observed that there is a difference in the number of beds among prefectures, which is closely associated with medical expenditure. Then, do these medical resources and expenses contribute to better health?
+  </p>
+
+  <div class="graph-full">
+    <div id="babble"></div>
+  </div>
+    <script type="text/javascript">
+    vegaEmbed("#babble", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/babble.json");
+    </script>
+  <p class = "reference">
+    Source: Created by the author based on MHLW, <i>Survey of Medical Institutions</i>, <i>National Medical Expenditure</i>, <i>Healthy life expectancy in 2022</i> <br> and Ministry of Internal Affairs and Communications, Japan(MIC), <i>Population Estimates</i>
+  </p>
+  <p class = "body_text">
+   In figure 7, the bubble size represents healthy life expectancy in deviation score(average = 50). Although the x-axis and y-axis look correlated, the bubble size appears to be completely unrelated to the amount of medical expenditure.
+  </p>
+  
+  <div class="graph-full">
+    <div id="parallel"></div>
+  </div>
+    <script type="text/javascript">
+    vegaEmbed("#parallel", "https://rshimizu63.github.io/Static-Visualization-rshimizu/graphs/parallel.json");
+    </script>
+  <p class = "reference">
+    Source: Created by the author based on MHLW, <i>Survey of Medical Institutions</i>, <i>National Medical Expenditure</i>, <i>Healthy life expectancy in 2022</i> <br> and MIC, <i>Population Estimates</i>
+  </p>
+  <p class = "body_text">
+   FIgure 8 also describe the relationship among hospital beds, health expenditure and healthy life expectency. Y-axis represents the rank among prefectures about each factors. Since the number of hospital beds and health expenditure are correlated, relatively few lines cross each other. In contrast, healthcare expenditure and healthy life expectency are visibly tangled, indicating little apparent relationship. This suggests that the concentration of healthcare resources does not necessarily lead to improved health outcomes.
+  </p>
+  
+  <h2 class="chapter">
+		 Conclusion
+	</h2>
+
+  <p class = "body_text">
+  As we can observe above, there is a possibility that abundant hospital beds lead to an increase in unnecessary medical service provision, causing an expansion of medical expenditure. Though Japanese people can benefit from the universal health insurance system, they ultimately have to bear the burden of such expenditure. These data provide compelling evidence for the need to optimize the allocation of medical resources.
+  </p>
+  
   </section>
+
 </body>
 </html>
