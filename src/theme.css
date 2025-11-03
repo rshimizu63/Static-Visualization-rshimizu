@@ -65,3 +65,8 @@
     margin-right: 0;
     table-layout: fixed;
 }
+
+.map-container {
+    height: 520px;
+    overflow: hidden;
+}
