@@ -14,8 +14,9 @@ You can hover some graphs to see detailed information.
 
 
 ## Data Sources
-Ministry of health, Labour and Welfare, Japan, *Survey of Medical Institutions*
-Ministry of health, Labour and Welfare, Japan, *National Medical Expenditure*
-Ministry of health, Labour and Welfare, Japan, *Hospital Report*
-Ministry of health, Labour and Welfare, Japan, *Healthy life expectancy in 2022*
-Ministry of Internal Affairs and Communications, Japan, *Population Estimates*
+Ministry of health, Labour and Welfare, Japan, *Survey of Medical Institutions*  
+Ministry of health, Labour and Welfare, Japan, *National Medical Expenditure*  
+Ministry of health, Labour and Welfare, Japan, *Hospital Report*  
+Ministry of health, Labour and Welfare, Japan, *Healthy life expectancy in 2022*  
+Ministry of Internal Affairs and Communications, Japan, *Population Estimates*  
+
